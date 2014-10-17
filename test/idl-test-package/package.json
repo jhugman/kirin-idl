@@ -1,0 +1,21 @@
+{
+  "name": "kirin-build-test-package",
+  "main": "lib/kirin-build.js",
+  "kirin": {
+    "extensions": {
+      "my-extension": "./lib/my-extension.js"
+    },
+    "idl": "idl",
+    "platforms": {
+      "ios": {
+        "project": "platforms/ios/MyApp.xcodeproj",
+        "build": "xcodebuild -configuration {{configuration}}",
+        "test": "xcrun ",
+        "sign": ""
+      },
+      "android": {
+        "project": "platforms/android"
+      }
+    }
+  }
+}

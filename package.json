@@ -1,0 +1,32 @@
+{
+  "name": "kirin-idl",
+  "version": "0.0.1",
+  "description": "Generate interface files for Android and iPhone with a common file written in Interface Definition Language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/test-*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jhugman/kirin-idl.git"
+  },
+  "keywords": [
+    "idl",
+    "kirin",
+    "cross-platform",
+    "code-generation"
+  ],
+  "author": "@jhugman",
+  "license": "Apache-v2",
+  "bugs": {
+    "url": "https://github.com/jhugman/kirin-idl/issues"
+  },
+  "homepage": "https://github.com/jhugman/kirin-idl",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "mkdirp": "~0.5.0"
+  },
+  "devDependencies": {
+    "tap": "~0.4.13"
+  }
+}
